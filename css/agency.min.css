@@ -5,7 +5,10 @@ body
 p {line-height:1.75}
 a {color:black}
 	a:hover{color:black}.text-primary{color:black}
-	h1,h2,h3,h4,h5,h6	{	font-weight:700;
+	#h51 	{	font-weight:400;
+				font-family:Montserrat;
+			}
+	h1,h2,h3,h4,h5,h6	{	font-weight:600;
 							font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
 						}
 	section{padding:100px 0}
@@ -111,7 +114,8 @@ a {color:black}
 	header.masthead	{
 						text-align:center;
 						color:black;
-						background-image:url(../img/tes5.jpg);background-repeat:no-repeat;
+						background-image:url(../img/tes5.jpg);
+						background-repeat:no-repeat;
 						background-attachment:scroll;
 						background-position:center center;
 						-webkit-background-size:cover;
@@ -144,7 +148,7 @@ a {color:black}
 	@media (min-width:768px){header.masthead .intro-text{
 															padding-top:300px;
 															padding-bottom:200px
-															
+
 														}
 
 	header.masthead .intro-text .intro-lead-in	{
@@ -441,6 +445,8 @@ a {color:black}
 			.timeline>li
 			.timeline-inverted>.timeline-panel	{padding:0 20px 20px}
 		}
+
+
 
 	@media (min-width:1200px)
 		{
