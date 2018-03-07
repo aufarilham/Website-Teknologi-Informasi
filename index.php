@@ -210,7 +210,7 @@
                     				<p class="text"> <h5>Menjadi Program Studi Teknologi Informasi yang unggul dalam bidang keamanan siber dan Teknologi berbasis Internet (InternetofThings) untuk mendukung pembangunan <i>Smart City</i> secara berkelanjutan hingga tahun 2022</h5>
                   				</div>
                 			</div>
-						</li>
+						        </li>
               		
               			<li class="timeline-inverted">
                 			<div class="timeline-panel2">
@@ -234,7 +234,7 @@
       	</div>
     </section>
 
-    <section class="bg-light" id="portfolio">
+    <section class="bg-light" id="portfolio" style="padding: 90px">
       	<div class="container">
         	<div class="row">
           		<div class="col-lg-12 text-center">
@@ -248,8 +248,8 @@
       	</div>
 	</section>
 
-	 <!--	Apa itu Teknologi Informasi -->
-    <section id="kerjaan">
+	 <!--	Jenis Peluang Kerja -->
+    <section id="kerjaan" style="color:white; background-color: black; padding: 70px;">
     	<div class="container">
     		<div class="text">
     			<h2 style="text-align: center;" class="section-heading text-uppercase">Jenis Peluang Kerja</h2>
@@ -291,9 +291,6 @@
             		<br>
           		</div>
         	</div>
-
-
-
 	        <div class="row">
 	          	<div class="col-sm-4">
 	            	<?php
@@ -321,12 +318,10 @@
 
 
 
-
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" style="padding-bottom: 7px; padding-top: 120px">
       <div class="container">
-
-	     <div class="row">
+        <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Hubungi Kami</h2>
             <h3 class="section-subheading text-muted">Hubungi Kami Untuk Mendapatkan Informasi Lebih Lanjut.</h3>
@@ -334,55 +329,52 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            
             <form action="kirimemail.php" method="post">
-	
-        	<div class="row">
+              <div class="row">
                 <div class="col-md-6">
-	
-        			<div>
-        				<input type="text" name="name" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-        				<p class="help-block text-danger"></p>
-        			</div>
-        
-        			<div class="form-group">
-        				<input class="form-control" type="text" name="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-        				<p class="help-block text-danger"></p>
-        			</div>
-        
-        			<div class="form-group">
-        				<input class="form-control" type="text" name="subject" placeholder="Subject *" required data-validation-required-message="Please enter your Subject message.">>
-        				<p class="help-block text-danger"></p>
-        			</div>
-        			
-    		    </div>
-    		</div>
-
-			<div class="col-md-6">
-			    <div class="form-group">
-				    <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-				    <p class="help-block text-danger"></p>
-				</div>
-			</div>
-
-            <div class="clearfix"></div>
-			<div class="col-lg-12 text-center">
-			    <div class="col-lg-12 text-center">
-			        <div id="success"></div>
-    				<input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Send email">
-				</div>
-			</div>
-
-		</form>
-            
-            </div>
-            </div>
-
-
-        
-          
+	               <div>
+                    <label><h2 style="color: white">Nama</h2></label><br>
+        				    <input class="form-control" style="height: 55px" type="text" name="name" placeholder="Masukan Nama Anda *" required data-validation-required-message="Please enter your name.">
+        				    <p class="help-block text-danger"></p>
+        			   </div>
+        			   <div class="form-group">
+                    <label><h2 style="color: white">Alamat Email</h2></label>
+        				    <input class="form-control" type="text" name="email" placeholder="Masukan Email Anda *" required data-validation-required-message="Please enter your email address.">
+        				    <p class="help-block text-danger"></p>
+        			   </div>
+                  <div class="form-group">
+                    <label><h2 style="color: white">Subjek Pesan</h2></label>
+        				    <input class="form-control" type="text" name="subject" placeholder="Masukan Subjek Pesan *" required data-validation-required-message="Please enter your Subject message.">>
+        				  <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div style="text-align: center; align-content: center;">
+	                <div>
+                    <label><h2 style="color: white">Isi Pesan</h2></label>
+				            <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Pesan Anda *" required data-validation-required-message="Please enter a message."></textarea>
+				            <p class="help-block text-danger"></p>
+				          </div>
+			        </div>
+              <br>
+              <div class="clearfix"></div>
+			          <div class="col-lg-12 text-center">
+			            <div class="col-lg-12 text-center">
+			              <div id="success"></div>
+    				          <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Send email">
+				            </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="section-subheading text-muted">email : teknologi.informasi@its.ac.id</h5>
+			            </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-      
+      </div>
     </section>
    
     <!-- Footer -->
@@ -392,7 +384,6 @@
           		<div class="col-md-4">
             		<span class="copyright">Copyright &copy; aufarilhamadianto</span>
           		</div>
-          
           		<div class="col-md-4">
             		<ul class="list-inline quicklinks">
               			<li class="list-inline-item">
@@ -423,41 +414,33 @@
     <script src="js/agency.min.js"></script>
     <script src="js/popup.js"></script>
 
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="row">
-            <div style="text-align: center;" class="col-lg-12">
-              <p>
-                <h2>Selamat Datang  di Website Departemen Teknologi Informasi</h2>
-                <h3>Institut Teknologi Sepuluh Nopember</h3>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-              </p>
-
-              <form action="/action_page.php">
-                First name:<br>
-                <input type="text" name="firstname" value="Mickey">
-                <br>
-                Last name:<br>
-                <input type="text" name="lastname" value="Mouse">
-                <br><br>
-                <input type="submit" value="Submit">
-              </form>
-
-            </div>
-            <div class="row">
-              
-            </div>
-          </div>
-        </div>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="text-align: center;" >Termakasih telah mengunjungi Website ini</h4>
       </div>
+      <div class="modal-body">
+        <div class="row">
+          <div style="align-content: center; align-items: center; align-self: center;" class="col-lg-12"><img src="img/team/6.png" class="img-responsive" /></div>
+        </div>
+        <div class="row">
+        </div>
+        
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>-->
     </div>
+
   </div>
+</div>
 
   
-
   </body>
 
 </html>
