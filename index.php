@@ -1,3 +1,51 @@
+
+<?php
+    $x6 = '<div class="team-member">
+                  <img class="mx-auto rounded-circle" src="img/team/6.png" alt="">
+                  <h4>Aufar Ilham Adianto</h4>
+                  <p class="text-muted">Mahasiswa Sistem Informasi (2016)</p>
+                  <h5><q>Departemen Teknologi Informasi adalah sebuah cabang baru pada dunia  </q></h5>
+          </div>';
+
+    $x5 = '<div class="team-member">
+                  <img class="mx-auto rounded-circle" src="img/team/5.png" alt="">
+                  <h4>Darwin Widjaja</h4>
+                  <p class="text-muted">Praktisi teknologi informasi</p>
+                  <h5><q>Sistem yang terintegrasi dalam suatu perusahaan dapat meningkatkan penghematan atau efisiensi</q></h5>
+          </div>';
+
+
+    $x2 = '<div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team/2.png" alt="">
+                    <h4>John McCarthy</h4>
+                    <p class="text-muted">Pakar Komputasi MIT</p>
+                    <h5><q>Suatu hari nanti komputasi akan menjadi infrastruktur publik seperti listrik dan telepon</q></h5>
+                </div>';
+
+    $x4 = '<div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team/4.png" alt="">
+                    <h4>Bill gates</h4>
+                    <p class="text-muted">Microsoft</p>
+                    <h5><q>Jika kita tidak memecahkan masalah keamanan, maka orang-orang akan ragu</q></h5>
+                </div>';
+
+    $x3 = '<div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team/3.png" alt="">
+
+                    <h4>Rudiantara</h4>
+                    <p class="text-muted">Menkominfo</p>
+                    <h5><q>Smart City menciptakan perubahan sistem lebih efektif dan efisien dalam lembaga pemerintahan</q></h5>
+
+                </div>';
+
+    $x1 = '<div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team/1.png" alt="">
+                    <h4>Wiranto</h4>
+                    <p class="text-muted">Menko Polhukam</p>
+                    <h5><q>Kegiatan siber nasional terutama pengamanan siber ini merupakan keharusan, keniscayaan..</q></h5>
+                </div>';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -244,58 +292,31 @@
           		</div>
         	</div>
 
+
+
 	        <div class="row">
 	          	<div class="col-sm-4">
-	            	<div class="team-member">
-	              		<img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-	              		<h4>Wiranto</h4>
-	              		<p class="text-muted">Menko Polhukam</p>
-	              		<h5><q>Kegiatan siber nasional terutama pengamanan siber ini merupakan keharusan, keniscayaan..</q></h5>
-	            	</div>
+	            	<?php
+                  $array = array($x1, $x2);
+                      echo $array[rand(0 , 1)];
+                ?>
 	          	</div>
 
           		<div class="col-sm-4">
-            		<div class="team-member">
-              			<img class="mx-auto rounded-circle" src="img/team/2.png" alt="">
-              			<h4>John McCarthy</h4>
-              			<p class="text-muted">Pakam Komputasi MIT</p>
-              			<h5><q>Suatu hari nanti komputasi akan menjadi infrastruktur publik seperti listrik dan telepon</q></h5>
-            		</div>
+            		<?php
+                  $array = array($x3, $x4);
+                      echo $array[rand(0 , 1)];
+                ?>
           		</div>
 
           		<div class="col-sm-4">
-            		<div class="team-member">
-              			<img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              			<h4>Rudiantara</h4>
-              			<p class="text-muted">Menkominfo</p>
-              			<h5><q>Smart City menciptakan perubahan sistem lebih efektif dan efisien dalam lembaga pemerintahan</q></h5>
-            		</div>
+            		<?php
+                  $array = array($x5, $x6);
+                      echo $array[rand(0 , 1)];
+                ?>
           		</div>
         	</div>
     	</div>
-
-    	<div class="container">
-    		<div class="row">
-          		<div class="col-sm-4">
-            		<div class="team-member">
-              			<img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="">
-              			<h4>Bill gates</h4>
-              			<p class="text-muted">Microsoft</p>
-              			<h5><q>Jika kita tidak memecahkan masalah keamanan, maka orang-orang akan ragu</q></h5>
-            		</div>
-          		</div>
-
-          	<div class="col-sm-4"></div>
-
-          	<div class="col-sm-4">
-            	<div class="team-member">
-              		<img class="mx-auto rounded-circle" src="img/team/6.jpg" alt="">
-              		<h4>Darwin Widjaja</h4>
-              		<p class="text-muted">Praktisi teknologi informasi</p>
-              		<h5><q>Kegiatan siber nasional terutama pengamanan siber ini merupakan keharusan, keniscayaan..</q></h5>
-            	</div>
-          	</div>
-     	</div>
     </section>
 
 
@@ -400,6 +421,42 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="js/popup.js"></script>
+
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div style="text-align: center;" class="col-lg-12">
+              <p>
+                <h2>Selamat Datang  di Website Departemen Teknologi Informasi</h2>
+                <h3>Institut Teknologi Sepuluh Nopember</h3>
+
+              </p>
+
+              <form action="/action_page.php">
+                First name:<br>
+                <input type="text" name="firstname" value="Mickey">
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname" value="Mouse">
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+            </div>
+            <div class="row">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
   </body>
 
