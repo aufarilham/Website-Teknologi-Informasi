@@ -100,7 +100,7 @@
              		<a class="nav-link js-scroll-trigger" href="#contact">Kontak</a>
             	</li>
               <li class="nav-item" style="background-color: #C0C0C0; color: white; border-radius: 15px;">
-                <a class="nav-link js-scroll-trigger" href="loginAdmin.php"><b>Admin</b></a>
+                <a class="nav-link js-scroll-trigger" href="login.php"><b>Admin</b></a>
               </li>
           	</ul>
         </div>
