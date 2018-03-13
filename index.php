@@ -97,8 +97,11 @@
               		<a class="nav-link js-scroll-trigger" href="#portfolio">Jalur Masuk</a>
             	</li>
             	<li class="nav-item">
-             		<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+             		<a class="nav-link js-scroll-trigger" href="#contact">Kontak</a>
             	</li>
+              <li class="nav-item" style="background-color: #C0C0C0; color: white; border-radius: 15px;">
+                <a class="nav-link js-scroll-trigger" href="loginAdmin.php"><b>Admin</b></a>
+              </li>
           	</ul>
         </div>
       </div>
@@ -189,6 +192,7 @@
 
     <!-- About -->
     <section id="about">
+      
       	<div class="container">
         	<div class="row">
           		<div class="col-lg-12 text-center">
@@ -232,6 +236,7 @@
             	</div>
         	</div>
       	</div>
+        
     </section>
 
     <section class="bg-light" id="portfolio" style="padding: 90px">
@@ -334,7 +339,7 @@
                 <div class="col-md-6">
 	               <div>
                     <label><h2 style="color: white">Nama</h2></label><br>
-        				    <input class="form-control" style="height: 55px" type="text" name="name" placeholder="Masukan Nama Anda *" required data-validation-required-message="Please enter your name.">
+        				    <input class="form-control" style="height: 55px" type="text" name="nama" placeholder="Masukan Nama Anda *" required data-validation-required-message="Please enter your name.">
         				    <p class="help-block text-danger"></p>
         			   </div>
         			   <div class="form-group">
@@ -344,7 +349,7 @@
         			   </div>
                   <div class="form-group">
                     <label><h2 style="color: white">Subjek Pesan</h2></label>
-        				    <input class="form-control" type="text" name="subject" placeholder="Masukan Subjek Pesan *" required data-validation-required-message="Please enter your Subject message.">>
+        				    <input class="form-control" type="text" name="subjek" placeholder="Masukan Subjek Pesan *" required data-validation-required-message="Please enter your Subject message.">>
         				  <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -352,7 +357,7 @@
               <div style="text-align: center; align-content: center;">
 	                <div>
                     <label><h2 style="color: white">Isi Pesan</h2></label>
-				            <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Pesan Anda *" required data-validation-required-message="Please enter a message."></textarea>
+				            <textarea class="form-control" name="isi" id="" cols="30" rows="10" placeholder="Pesan Anda *" required data-validation-required-message="Please enter a message."></textarea>
 				            <p class="help-block text-danger"></p>
 				          </div>
 			        </div>
@@ -439,6 +444,8 @@
 
   </div>
 </div>
+
+
 
   
   </body>

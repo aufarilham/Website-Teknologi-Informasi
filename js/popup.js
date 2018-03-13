@@ -1,3 +1,4 @@
+// A $( document ).ready() block.
 $( document ).ready(function() {
   if (document.cookie.indexOf('visited=true') == -1){
     // load the overlay
