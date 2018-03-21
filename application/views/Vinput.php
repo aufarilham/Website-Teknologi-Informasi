@@ -5,7 +5,7 @@
 </head>
 <body>
 	<center>
-		<h1>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</h1>
+		<h1>Tambah Pesan | Admin</h1>
 		<h3>Tambah data baru</h3>
 	</center>
 	<form action="<?php echo base_url(). 'crud/tambah_aksi'; ?>" method="post">

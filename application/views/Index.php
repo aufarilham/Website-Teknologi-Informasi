@@ -234,7 +234,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form action="<?php echo base_url(). 'crud/tambah_aksi'; ?>" method="post">
+            <form action="<?php echo base_url(). 'crud/tambah_aksi2'; ?>" method="post">
               <div class="row">
                 <div class="col-md-6">
 	               <div>

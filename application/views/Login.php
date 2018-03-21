@@ -8,7 +8,7 @@
         width: 400px;
         padding: 10px;
         border: 1px solid #ccc;
-        background: lightblue;
+        background: #E0E0E0;
     }
     input[type=text], input[type=password] {
         margin: 5px auto;
