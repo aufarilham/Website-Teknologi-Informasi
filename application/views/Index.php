@@ -225,7 +225,7 @@
     <!-- Contact -->
     <section id="contact" style="padding-bottom: 7px; padding-top: 120px">
       <div class="container">
-        <?php echo form_open('insert_ctrl'); ?>
+        
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Hubungi Kami</h2>
@@ -234,7 +234,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form action="<?php echo base_url().'application/controllers/kirimemail.php';?>" method="post">
+            <form action="<?php echo base_url(). 'crud/tambah_aksi'; ?>" method="post">
               <div class="row">
                 <div class="col-md-6">
 	               <div>
@@ -247,11 +247,6 @@
         				    <input class="form-control" type="text" name="email" placeholder="Masukan Email Anda *" required data-validation-required-message="Please enter your email address.">
         				    <p class="help-block text-danger"></p>
         			   </div>
-                  <div class="form-group">
-                    <label><h2 style="color: white">Subjek Pesan</h2></label>
-        				    <input class="form-control" type="text" name="subjek" placeholder="Masukan Subjek Pesan *" required data-validation-required-message="Please enter your Subject message.">>
-        				  <p class="help-block text-danger"></p>
-                  </div>
                 </div>
               </div>
               <div style="text-align: center; align-content: center;">
@@ -266,7 +261,7 @@
 			          <div class="col-lg-12 text-center">
 			            <div class="col-lg-12 text-center">
 			              <div id="success"></div>
-    				          <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Send email">
+    				          <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Kirim">
 				            </div>
                     <br>
                     <br>

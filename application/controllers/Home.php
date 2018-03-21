@@ -8,6 +8,7 @@ class Home extends CI_Controller {
 		$this->header();
 		$this->load->view('index');
 		$this->footer();
+		
 	}
 
 	public function halamanprofil()
