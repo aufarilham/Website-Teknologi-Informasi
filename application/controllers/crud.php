@@ -83,4 +83,12 @@ class Crud extends CI_Controller{
 	$this->m_data->update_data($where,$data,'user');
 	redirect('crud/index');
 	}
+
+	function export(){
+		header("Content-type: application/vnd-ms-excel");
+		header("Content-Disposition: attachment; filename=Report.xls");
+    
+		$data['user'] = $this->m_data->tampil_data()->result();
+		$this->load->view('vtampil',$data);
+	}
 }

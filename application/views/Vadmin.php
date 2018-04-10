@@ -11,5 +11,8 @@
 	<div>
 		<h1 style="text-align: center;"><a href="<?php echo base_url('crud'); ?>"</a>Melihat Pesan</h1>
 	</div>
+
+	<?php echo anchor('crud/export','Export ke Excel'); ?>
+
 </body>
 </html>
