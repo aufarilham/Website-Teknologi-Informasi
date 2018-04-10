@@ -220,7 +220,30 @@
     	</div>
     </section>
 
+    <!-- Penilaian -->
+    <section id="kerjaan" style="color:white; background-color: black; padding: 70px;">
+      <div class="container">
+        <div class="text">
+          <h2 style="text-align: center;" class="section-heading text-uppercase">Berikan Penilaian Anda</h2>
+        </div>
 
+        <div>
+          <form method="post" style="text-align: center;" action="<?php echo base_url().'saran/aksi'; ?>">
+              <p><b>EMAIL</b></p>
+              <input type="text" style="width: 190px" name="email" placeholder="  Masukan Email Anda" required data-validation-required-message="Masukan Email Anda dengan Benar" />
+              <br></br>
+              Kebersihan &nbsp; &nbsp;: &nbsp;&nbsp;<input type="text" style="width: 70px" name="kebersihan" placeholder="     1-10" required data-validation-required-message="Masukan Angka 1-10." />
+              <br></br>
+              Kedisiplinan :&nbsp; &nbsp;<input type="text" style="width: 70px" name="kedisiplinan" placeholder="     1-10" required data-validation-required-message="Masukan Angka 1-10." />
+              <br></br>
+              Keprofesian &nbsp; : &nbsp;&nbsp;<input type="text" style="width: 70px" name="keprofesian" placeholder="     1-10" required data-validation-required-message="Masukan Angka 1-10." />
+              <br></br>
+              <input type="submit" value="Submit" />
+          </form>
+
+        </div>
+      </div>
+    </section>
 
     <!-- Contact -->
     <section id="contact" style="padding-bottom: 7px; padding-top: 120px">
